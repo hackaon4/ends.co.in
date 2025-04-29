@@ -1,115 +1,628 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ENDS - Tech Company</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-    /* Custom scrollbar for dark theme */
-    ::-webkit-scrollbar {
-      width: 8px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #000000;
-    }
-    ::-webkit-scrollbar-thumb {
-      background-color: #6b7280;
-      border-radius: 10px;
-      border: 2px solid #000000;
-    }
-  </style>
-</head>
-<body class="bg-black text-white min-h-screen flex flex-col">
+<html lang="en">
 
-  <!-- Navigation -->
-  <nav class="bg-gray-900 border-b border-gray-700">
-    <div class="max-w-7xl mx-auto px-6 sm:px-12 lg:px-24 flex justify-between items-center h-16">
-      <a href="#hero" class="text-2xl font-extrabold tracking-tight">ENDS</a>
-      <div class="space-x-8">
-        <a href="#hero" class="text-gray-300 hover:text-white transition font-semibold">Home</a>
-        <a href="#contact" class="text-gray-300 hover:text-white transition font-semibold">Contact Us</a>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Ends - The never ending</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-scholar.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
-  </nav>
+  </div>
+  <!-- ***** Preloader End ***** -->
 
-  <!-- Hero Section -->
-  <header id="hero" class="flex flex-col items-center justify-center text-center py-24 px-6 sm:px-12 lg:px-24">
-    <h1 class="text-5xl sm:text-6xl font-extrabold tracking-tight mb-4">
-      ENDS
-    </h1>
-    <p class="text-xl sm:text-2xl max-w-3xl mb-8 text-gray-300">
-      Innovating the Future of Technology
-    </p>
-    <a href="#services" class="inline-block bg-white text-black hover:bg-gray-300 transition rounded-lg px-8 py-3 font-semibold shadow-lg shadow-gray-500/50">
-      Our Services
-    </a>
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <h1>ENDS</h1>
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Serach Start ***** -->
+
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                      <li class="scroll-to-section"><a href="#services">Services</a></li>
+                      <li class="scroll-to-section"><a href="#courses">Courses</a></li>
+                      <li class="scroll-to-section"><a href="#team">Communities</a></li>
+                      <li class="scroll-to-section"><a href="#contact">Register Now!</a></li>
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
   </header>
+  <!-- ***** Header Area End ***** -->
 
-  <!-- Services Section -->
-  <section id="services" class="max-w-7xl mx-auto px-6 sm:px-12 lg:px-24 py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
-    <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-gray-500 transition">
-      <div class="text-white mb-4 text-4xl">
-        <i class="fas fa-robot"></i>
+  <div class="main-banner" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-banner">
+            <div class="item item-1">
+              <div class="header-text">
+                <span class="category">Our Courses</span>
+                <h2>With Ends Mentors, Everything Is Easier</h2>
+                <p>ENDS is platform to learn amazing skill like Ethical Hacking and Cybersecurity.</p>
+                <div class="buttons">
+                  <div class="main-button">
+                    <a href="#">Request a Lecture?</a>
+                  </div>
+                  <div class="icon-button">
+                    <a href="#"><i class="fa fa-play"></i> What's ENDS?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item item-2">
+              <div class="header-text">
+                <span class="category">Best Mentors</span>
+                <h2>Get to learn out of your effort</h2>
+                <p>You are allowed to use this template for any educational or commercial purpose. You are not allowed to re-distribute the template ZIP file on any other website.</p>
+                <div class="buttons">
+                  <div class="main-button">
+                    <a href="#">Request a Lecture?</a>
+                  </div>
+                  <div class="icon-button">
+                    <a href="#"><i class="fa fa-play"></i> What's the best result?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item item-3">
+              <div class="header-text">
+                <span class="category">Online Learning</span>
+                <h2>Online Learning helps you save the time</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporious incididunt ut labore et dolore magna aliqua suspendisse.</p>
+                <div class="buttons">
+                  <div class="main-button">
+                    <a href="#">Request Demo</a>
+                  </div>
+                  <div class="icon-button">
+                    <a href="#"><i class="fa fa-play"></i> What's Online Course?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <h3 class="text-2xl font-semibold mb-2">AI & Machine Learning</h3>
-      <p class="text-gray-400">
-        Leveraging cutting-edge AI to automate and optimize your business processes.
-      </p>
     </div>
-    <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-gray-500 transition">
-      <div class="text-white mb-4 text-4xl">
-        <i class="fas fa-cloud"></i>
+  </div>
+
+  <div class="services section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/service-01.png" alt="online degrees">
+            </div>
+            <div class="main-content">
+              <h4>Online Training</h4>
+              <p>Whenever you need ENDS is always there for you.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/service-02.png" alt="short courses">
+            </div>
+            <div class="main-content">
+              <h4>Short Courses</h4>
+              <p>You can browse our Free short Courses on Youtube.</p>
+              <div class="main-button">
+                <a href="https://www.youtube.com">Browse Courses</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/service-03.png" alt="web experts">
+            </div>
+            <div class="main-content">
+              <h4>Industry Experts</h4>
+              <p>You will always find Expert`s assistance at ENDS.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <h3 class="text-2xl font-semibold mb-2">Cloud Solutions</h3>
-      <p class="text-gray-400">
-        Scalable and secure cloud infrastructure tailored to your needs.
-      </p>
     </div>
-    <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-gray-500 transition">
-      <div class="text-white mb-4 text-4xl">
-        <i class="fas fa-shield-alt"></i>
+  </div>
+
+  <div class="section about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-1">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Where shall we begin?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  With <strong>ENDS</strong>, Start your journey with our beginner-friendly courses designed to build a strong foundation in ethical hacking and cybersecurity. From understanding basic concepts to mastering real-world attack simulations, ENDS guides you step by step — no prior experience needed. Just pick a course, dive into the labs, and begin your path to becoming an ethical hacker..
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How do we work together?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  At <strong>ENDS</strong>, learning is a collaborative journey. You’ll gain access to interactive courses, hands-on labs, and real-time support from instructors and peers. Join our private community, get help when you’re stuck, share progress, and grow your skills alongside other passionate learners — all while learning at your own pace. We’re with you every step of the way..
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What can achive with ENDS?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  With <strong>ENDS</strong> you can go from a complete beginner to a certified, job-ready ethical hacker. Whether your goal is to land a cybersecurity role, start bug bounty hunting, or simply level up your skills, our structured learning paths and real-world labs will get you there — faster, smarter, and more confidently.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Is ENDS Right for Me?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Absolutely — whether you're a student exploring cybersecurity, a professional switching careers, or someone passionate about ethical hacking, ENDS is built for you. Our step-by-step courses, practical labs, and expert support make learning accessible and effective, no matter your background.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <div class="section-heading">
+            <h6>About Us</h6>
+            <h2>What make us the best academy online?</h2>
+            <p>At ENDS, we offer hands-on ethical hacking training led by industry experts. Our courses are practical, up-to-date, and flexible — built to prepare you for real-world cybersecurity challenges. Whether you're a beginner or aiming to go pro, ENDS is your path to becoming a skilled ethical hacker..</p>
+            <div class="main-button">
+              <a href="#courses">Discover More</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <h3 class="text-2xl font-semibold mb-2">Cybersecurity</h3>
-      <p class="text-gray-400">
-        We focus on protecting your digital assets with our advanced security solutions.
-      </p>
     </div>
+  </div>
+
+  <section class="section courses" id="courses" >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>Latest Courses</h6>
+            <h2>ENDS Courses</h2>
+          </div>
+        </div>
+      </div>
+      <ul class="event_filter">
+        <li>
+          <a class="is_active" href="#!" data-filter="*">Show All</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".design">Cybersecurity</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".development">Development</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".wordpress">Linux</a>
+        </li>
+      </ul>
+      <div class="row event_box">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-01.jpg" alt=""></a>
+              <span class="category">Cybersecurity</span>
+              <span class="price"><h6><em>*</em>Free</h6></span>
+            </div>
+            <div class="down-content">
+              <span class="author">Ends.co & Royal Hackerst</span>
+              <h4>Free Cybersecurity Course (Click on image to register)</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#contact"><img src="assets/images/course-02.jpg" alt=""></a>
+              <span class="category">Development</span>
+              <span class="price"><h6><em>₹</em>15</h6></span>
+            </div>
+            <div class="down-content">
+              <span class="author">Ends.co</span>
+              <h4>Programming for Hacking (Ebooks only!)</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design wordpress">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-03.jpg" alt=""></a>
+              <span class="category">Linux</span>
+              <span class="price"><h6><em>₹</em>90</h6></span>
+            </div>
+            <div class="down-content">
+              <span class="author">Ends.co</span>
+              <h4>Linux Mastery Course (Not avilable Now)</h4>
+            </div>
+          </div>
+        </div>
   </section>
 
-  <!-- Contact Us Section -->
-  <section id="contact" class="max-w-3xl mx-auto px-6 sm:px-12 lg:px-24 py-16">
-    <h2 class="text-4xl font-extrabold mb-8 text-center">Contact Us</h2>
-    <form action="mailto:contact@ends.com" method="POST" enctype="text/plain" class="space-y-6">
-      <div>
-        <label for="name" class="block mb-2 font-semibold">Name</label>
-        <input type="text" id="name" name="name" required class="w-full rounded-md bg-gray-800 border border-gray-700 text-white px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gray-500" />
+  <div class="section fun-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="746" data-speed="1000"></h2>
+                   <p class="count-text ">Happy Students</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="145" data-speed="1000"></h2>
+                  <p class="count-text ">Course Hours</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="101" data-speed="1000"></h2>
+                  <p class="count-text ">Sessions Taken</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="counter end">
+                  <h2 class="timer count-title count-number" data-to="4" data-speed="1000"></h2>
+                  <p class="count-text ">Years Experience</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        <label for="email" class="block mb-2 font-semibold">Email</label>
-        <input type="email" id="email" name="email" required class="w-full rounded-md bg-gray-800 border border-gray-700 text-white px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gray-500" />
-      </div>
-      <div>
-        <label for="message" class="block mb-2 font-semibold">Message</label>
-        <textarea id="message" name="message" rows="5" required class="w-full rounded-md bg-gray-800 border border-gray-700 text-white px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gray-500"></textarea>
-      </div>
-      <div class="text-center">
-        <button type="submit" class="bg-white text-black font-semibold rounded-lg px-8 py-3 hover:bg-gray-300 transition shadow-lg shadow-gray-500/50">
-          Send Message
-        </button>
-      </div>
-    </form>
-  </section>
+    </div>
+  </div>
 
-  <!-- Footer -->
-  <footer class="bg-gray-900 mt-auto py-8 px-6 sm:px-12 lg:px-24 text-center text-gray-400 text-sm">
-    &copy; 2024 ENDS. All rights reserved.
+  <div class="team section" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/ENDS-cir.jpg" alt="">
+              <span class="category">official cybersecurity community</span>
+              <h4>ENDS</h4>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-discord"></i></a></li>
+                <li><a href="mailto:contact@ends.com"><i class="fab fa-google"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/rowdy-sr.png" alt="">
+              <span class="category">cybersecurity community</span>
+              <h4>Rowdy Hackerst</h4>
+              <ul class="social-icons">
+                <li><a href="https://chat.whatsapp.com/KtseyBBiSMU06SpjoD4gx8"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://www.instagram.com/rowdy_hackerst?igsh=MWI4aHFoZXE5cXBpbQ=="><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://t.me/rowdyhackerst"><i class="fab fa-telegram"></i></a></li>                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/roothex-cir.png" alt="">
+              <span class="category">store partner</span>
+              <h4>RootHex supply</h4>
+              <ul class="social-icons">
+                <li><a href="https://chat.whatsapp.com/FV80pNsHmnf1A1O79HGXXv"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/enderman.png" alt="">
+              <span class="category">ADMIN</span>
+              <h4>Paris K.</h4>
+              <ul class="social-icons">
+                <li><a href="https://wa.me/917070140150"><i class="fab fa-whatsapp"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div class="section testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="owl-carousel owl-testimonials">
+            <div class="item">
+              <p>“Please tell your friends or collegues about ENDS and RootHex. Anyone can access the courses for free. Thank you for visiting.”</p>
+              <div class="author">
+                <img src="assets/images/nikhil" alt="">
+                <span class="category">Android security Mentor</span>
+                <h4>Nikhil</h4>
+              </div>
+            </div>
+            <div class="item">
+              <p>“at ENDS and ROWDY Hackerst you will find many learning opportunities, so stay tuned with us.”</p>
+              <div class="author">
+                <img src="assets/images/aryan.jpeg" alt="">
+                <span class="category">Community adminstration</span>
+                <h4>Aryan</h4>
+              </div>
+            </div>
+            <div class="item">
+              <p>“ENDS is platform for those who are in search of skills and learning opportunities.”</p>
+              <div class="author">
+                <img src="assets/images/enderman.png" alt="">
+                <span class="category">Admin</span>
+                <h4>Paris k.</h4> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <div class="section-heading">
+            <h6>TESTIMONIALS</h6>
+            <h2>What they say about us?</h2>
+            <p>You can tell us what you feel about ENDS , just mail us at </p><a herf="#contact">admin@ends.co.in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section events" id="events">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>Schedule</h6>
+            <h2>Upcoming Meetings</h2>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/images/event-01.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Cybersecurity</span>
+                    <h4>Introduction to Course</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>May 2 2025</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>2 Hours</h6>
+                  </li>
+                  <li>
+                    <span>Price:</span>
+                    <h6>*Free</h6>
+                  </li>
+                </ul>
+                <a href="https://meet.google.com/ott-dqtp-cha"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/images/event-02.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Networking Basics</span>
+                    <h4>Session 1 - Networking basics - 1</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>May 4 2025</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>3 Hours</h6>
+                  </li>
+                  <li>
+                    <span>Price:</span>
+                    <h6>*Free</h6>
+                  </li>
+                </ul>
+                <a href="https://meet.google.com/ott-dqtp-cha"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/images/event-03.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Networking</span>
+                    <h4>Session 2 - Netowrikng Advance - 2</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>May 9 2025</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>3 Hours</h6>
+                  </li>
+                  <li>
+                    <span>Price:</span>
+                    <h6>*Free</h6>
+                  </li>
+                </ul>
+                <a href="https://meet.google.com/ott-dqtp-cha"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-us section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6  align-self-center">
+          <div class="section-heading">
+            <h6>Contact Us</h6>
+            <h2>Feel free to contact us anytime</h2>
+            <p>Thank you for choosing Ends. You may support us by sharing our website to your friends.</p>
+            <div class="special-offer">
+              <span class="offer">off<br><em>10%</em></span>
+              <h6>Valide: <em>2 june 2025</em></h6>
+              <h4>Special Offer <em>10%</em> OFF!</h4>
+              <a href="https://wa.me/917070140150"><i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-us-content">
+            <form id="contact-form" action="" method="post">
+              <div class="row">
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="orange-button">Send Message Now</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Copyright © 2025 Ends co. All rights reserved. &nbsp;&nbsp;&nbsp; Design: <a href="ends.co.in" rel="nofollow" target="_blank">Ends</a></p>
+        <p>*note site is newly updated ,still not fully functionald</p>
+      </div>
+    </div>
   </footer>
 
-</body>
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  </body>
 </html>
