@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ends.co.in/sitemap.xml
